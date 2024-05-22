@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.hint__container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+[data-hint] {
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+[data-hint]::after {
+    opacity: 0;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    content: attr(data-hint);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    transition: opacity 0.2s;
+    text-align: center;
+}
+
+[data-hint]:hover::after {
+    opacity: 1;
+    animation-duration: 3s;
+    animation-name: hintAnimation;
+}
+
+
+@keyframes hintAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+button{
+    border: 0;
+    background: none;
+}
