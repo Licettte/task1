@@ -14,10 +14,6 @@
 
 }
 
-.about {
-
-}
-
 .line__about {
     width: 50px;
     border-top: 2px solid #000000;
@@ -26,5 +22,51 @@
 
 p {
     text-align: center;
-    margin:0 30px 30px 30px;
+    margin: 0 30px 30px 30px;
+}
+
+.description__about {
+    color: rgb(119, 117, 109);
+    width: 80%;
+}
+
+.layout-3-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3 - 13px);
+    margin: 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid rgba(203, 200, 186, 0.56) 2px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px;
 }
