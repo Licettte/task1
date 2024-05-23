@@ -14,10 +14,17 @@
 
 }
 
-.line__about {
+.line__dark {
     width: 50px;
     border-top: 2px solid #000000;
     margin: 30px;
+}
+
+hr {
+    width: 15%;
+    border-top: 2px solid rgba(203, 200, 186, 0.56);
+    top: 50px;
+    position: relative;
 }
 
 p {
@@ -27,22 +34,20 @@ p {
 
 .description__about {
     color: rgb(119, 117, 109);
-    width: 80%;
+    width: 70%;
 }
 
 .layout-3-columns {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 
 .card {
-    width: calc(100% / 3 - 13px);
+    width: calc(100% / 5 - 15px);
     margin: 0 0 30px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .img__wrapper {
