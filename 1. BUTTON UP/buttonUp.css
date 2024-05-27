@@ -1,23 +1,18 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-
-}
-
-.arrowUp__container {
-    padding-right: 25px;
-    display: flex;
-    justify-content: flex-end
 }
 
 .arrowUp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
     background-color: rgba(100, 149, 237, 0.35);
     width: 100px;
     height: 100px;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
-
 }
 
 .arrowUp:hover {
@@ -31,4 +26,5 @@ img {
 
 p {
     text-align: justify;
+    width: 90%;
 }

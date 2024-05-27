@@ -27,6 +27,11 @@ hr {
     position: relative;
 }
 
+.as{
+    display: flex;
+    border-left:1px;
+    transform: rotate(90deg);
+}
 p {
     text-align: center;
     margin: 0 30px 30px 30px;
@@ -42,7 +47,9 @@ p {
     flex-wrap: wrap;
     justify-content: center
 }
-
+.aa{ display: flex;
+    justify-content: center;
+    align-items: center;}
 .card {
     width: calc(100% / 5 - 15px);
     margin: 0 0 30px;
